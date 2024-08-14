@@ -1,34 +1,75 @@
-## Taller 1: Sistemas de Numeración y Operaciones Aritméticas
+## Workshop 1. Part One: Numbering Systems and Arithmetic Operations
 
-**Objetivo**: Evaluar y reforzar el conocimiento en conversiones entre sistemas de numeración, uso de códigos BCD y Gray, comprensión de la estructura de datos (byte, nibble, palabra), y operaciones aritméticas básicas con números binarios, incluyendo el complemento a dos.
+**Objective**: To evaluate and reinforce knowledge in conversions between number systems, use of BCD and Gray codes, understanding of data structure (byte, nibble, word), and basic arithmetic operations with binary numbers, including two's complement.
 
-### Conversión Decimal a Binario, Octal y Hexadecimal
-- Implementa una función en Python que convierta un número decimal a sus representaciones en binario, octal y hexadecimal.
+### Decimal to Binary, Octal and Hexadecimal Conversion
+- Implements a Python function that converts a decimal number to its binary, octal, and hexadecimal representations.
 
-### Conversión Binario a Decimal
-- Escribe una función en Python que convierta un número binario (como cadena de texto) a su equivalente en decimal.
+### Binary to Decimal Conversion
+- Write a Python function that converts a binary number (as a string) to its decimal equivalent.
 
-### Conversión Hexadecimal a Decimal y Binario
-- Implementa una función que convierta un número hexadecimal (como cadena) a su equivalente en decimal y binario.
+### Hexadecimal to Decimal and Binary Conversion
+- Implements a function that converts a hexadecimal number (as a string) to its decimal and binary equivalent.
 
-### Conversión a Código BCD
-- Implementa una función que convierta un número decimal a su representación en Código BCD.
+### Conversion to BCD Code
+- Implements a function that converts a decimal number to its BCD code representation.
 
-### Conversión Binario a Código Gray
-- Escribe una función en Python que convierta un número binario a Código Gray.
+### Binary to Gray Code Conversion
+- Write a Python function that converts a binary number to Gray Code.
 
-### Identificación de Estructuras de Datos
-- Implementa una función en Python que identifique si una cadena binaria corresponde a un nibble, byte o palabra
+### Data Structure Identification
+- Implement a Python function that identifies whether a binary string corresponds to a nibble, byte, or word.
 
-### Operación con Nibbles
-- Implementa una función que realice la suma binaria de dos nibbles y devuelva el resultado como un byte.
+### Operation with Nibbles
+- Implement a function that performs the binary addition of two nibbles and returns the result as a byte.
 
-### Conversión de Caracteres a Código ASCII y EBCDIC
-- Implementa funciones que conviertan un carácter a su código ASCII y otro a su equivalente en EBCDIC (puedes usar una tabla de conversión fija para EBCDIC).
+### Character to ASCII and EBCDIC Code Conversion
+- Implement functions that convert one character to its ASCII code and another to its EBCDIC equivalent (you can use a fixed conversion table for EBCDIC).
 
-### Suma de Números Binarios
-- Escribe una función en Python que realice la suma de dos números binarios.
+### Sum of Binary Numbers
+- Write a Python function that adds two binary numbers.
 
-### Resta con Complemento a Dos (1 punto):
+### Subtract with Two's Complement:
 
-- Implementa una función que reste dos números binarios utilizando el método de complemento a dos.
+- Implement a function subtracting two binary numbers using the two's complement method.
+
+
+
+## Taller 1. Segunda Parte: Sistemas Numéricos en Diferentes Bases
+
+Imagina que trabajas en una empresa de tecnología que ha desarrollado un nuevo sistema de almacenamiento que utiliza una base numérica inusual: la **base 13**. Tu tarea es desarrollar un software que pueda convertir números entre la base 10 (decimal) y esta nueva base 13, además de realizar algunas conversiones adicionales entre otras bases.
+
+### 1. Identificación de Dígitos en Base 13 (1 punto)
+- Antes de realizar las conversiones, es importante entender cómo se representan los números en base 13. En este sistema, los dígitos van del 0 al 9 y se agregan tres símbolos adicionales para representar los valores 10, 11, y 12. Estos pueden representarse como A, B, y C respectivamente.
+**Pregunta**: ¿Cuáles son los dígitos válidos en un sistema de base 13? Describe cómo representarías los números 10, 11, y 12 en este sistema.
+
+### 2. Conversión de Decimal a Base 13 (2 puntos):
+
+- Implementa una función en Python que convierta un número en base 10 a su equivalente en base 13.
+- **Ejercicio**: Convierte el número decimal 255 a base 13. ¿Cuál es la representación de este número en base 13?
+
+### 3. Conversión de Base 13 a Decimal (2 puntos)
+- Ahora, implementa una función que convierta un número en base 13 a su equivalente en base 10.
+- **Ejercicio**: Convierte el número 1A2 en base 13 a decimal. ¿Cuál es el valor en base 10?
+
+### Conversión de Base 13 a Binario (2 puntos):
+
+- Escribe una función que convierta un número en base 13 a su equivalente en binario, pasando primero por la conversión a base 10.
+- **Ejercicio**: Convierte el número B3 de base 13 a binario.
+
+
+### Conversión de Binario a Base 13 (2 puntos):
+- Escribe una función que convierta un número binario a su equivalente en base 13, pasando primero por la conversión a base 10.
+- **Ejercicio**: Convierte el número binario 1101011 a base 13.
+
+### Conversión de Base 13 a Hexadecimal (1 punto):
+
+- Implementa una función que convierta un número en base 13 a hexadecimal, utilizando la base 10 como paso intermedio.
+- **Ejercicio**: Convierte el número 9C de base 13 a hexadecimal.
+
+### Aplicación en el Almacenamiento de Datos (2 puntos):
+
+- Imagina que en tu empresa se decide almacenar ciertos identificadores utilizando la base 13 debido a su eficiencia. Si un identificador en base 10 es 3456, ¿cómo se vería este identificador en base 13? 
+- Además, convierte este identificador de base 13 a binario para mostrar cómo se almacenaría en un sistema digital.
+
+-**Ejercicio**: Realiza las conversiones y explica por qué podría ser ventajoso utilizar bases numéricas no convencionales en ciertos sistemas.
