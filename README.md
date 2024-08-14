@@ -35,41 +35,41 @@
 
 
 
-## Taller 1. Segunda Parte: Sistemas Numéricos en Diferentes Bases
+## Workshop 1. Part Two: Number Systems in Different Bases
 
-Imagina que trabajas en una empresa de tecnología que ha desarrollado un nuevo sistema de almacenamiento que utiliza una base numérica inusual: la **base 13**. Tu tarea es desarrollar un software que pueda convertir números entre la base 10 (decimal) y esta nueva base 13, además de realizar algunas conversiones adicionales entre otras bases.
+Imagine that you work at a technology company that has developed a new storage system that uses an unusual number base: **base 13**. Your task is to build software that can convert numbers between base 10 (decimal) and this new base 13, and perform additional conversions between other bases.
 
-### 1. Identificación de Dígitos en Base 13 (1 punto)
-- Antes de realizar las conversiones, es importante entender cómo se representan los números en base 13. En este sistema, los dígitos van del 0 al 9 y se agregan tres símbolos adicionales para representar los valores 10, 11, y 12. Estos pueden representarse como A, B, y C respectivamente.
-**Pregunta**: ¿Cuáles son los dígitos válidos en un sistema de base 13? Describe cómo representarías los números 10, 11, y 12 en este sistema.
+### 1. Digit Identification in Base 13 (1 point)
+- Before performing the conversions, it is essential to understand how numbers are represented in base 13. In this system, the digits range from 0 to 9, and three additional symbols are added to represent the values 10, 11, and 12.
+**Question**: What are the valid digits in a base 13 system? Describe how you would represent the numbers 10, 11, and 12 in this system.
 
-### 2. Conversión de Decimal a Base 13 (2 puntos):
+### 2. Decimal to Base 13 Conversion (2 points):
 
-- Implementa una función en Python que convierta un número en base 10 a su equivalente en base 13.
-- **Ejercicio**: Convierte el número decimal 255 a base 13. ¿Cuál es la representación de este número en base 13?
+- Implement a Python function that converts a base 10 number to its base 13 equivalent.
+- **Exercise**: Convert the decimal number 255 to base 13. What is the representation of this number in base 13?
 
-### 3. Conversión de Base 13 a Decimal (2 puntos)
-- Ahora, implementa una función que convierta un número en base 13 a su equivalente en base 10.
-- **Ejercicio**: Convierte el número 1A2 en base 13 a decimal. ¿Cuál es el valor en base 10?
+### 3. Base 13 to Decimal Conversion (2 points).
+- Now, implement a function that converts a base 13 number to its base ten equivalent.
+- **Exercise**: Convert the number 1A2 in base 13 to decimal. What is the value in base 10?
 
-### Conversión de Base 13 a Binario (2 puntos):
+### Base 13 to Binary Conversion (2 points):
 
-- Escribe una función que convierta un número en base 13 a su equivalente en binario, pasando primero por la conversión a base 10.
-- **Ejercicio**: Convierte el número B3 de base 13 a binario.
+- Write a function that converts a base 13 number to its binary equivalent by first going through the conversion to base 10.
+- **Exercise**: Convert the number B3 from base 13 to binary.
 
 
-### Conversión de Binario a Base 13 (2 puntos):
-- Escribe una función que convierta un número binario a su equivalente en base 13, pasando primero por la conversión a base 10.
-- **Ejercicio**: Convierte el número binario 1101011 a base 13.
+### Binary to Base 13 Conversion (2 points):
+- Write a function that converts a binary number to its base 13 equivalent by first going through the conversion to base 10.
+- **Exercise**: Convert the binary number 1101011 to base 13.
 
-### Conversión de Base 13 a Hexadecimal (1 punto):
+### Base 13 to Hexadecimal Conversion (1 point):
 
-- Implementa una función que convierta un número en base 13 a hexadecimal, utilizando la base 10 como paso intermedio.
-- **Ejercicio**: Convierte el número 9C de base 13 a hexadecimal.
+- Implement a function that converts a base 13 number to hexadecimal, using base 10 as an intermediate step.
+- **Exercise**: Convert the number 9C from base 13 to hexadecimal.
 
-### Aplicación en el Almacenamiento de Datos (2 puntos):
+### Application in Data Storage (2 points):
 
-- Imagina que en tu empresa se decide almacenar ciertos identificadores utilizando la base 13 debido a su eficiencia. Si un identificador en base 10 es 3456, ¿cómo se vería este identificador en base 13? 
-- Además, convierte este identificador de base 13 a binario para mostrar cómo se almacenaría en un sistema digital.
+- Imagine that your company decides to store specific identifiers using base 13 because of its efficiency. If an identifier in base 10 is 3456, what would this identifier look like in base 13? 
+- Also, convert this base 13 identifier to binary to show how it would be stored in a digital system.
 
--**Ejercicio**: Realiza las conversiones y explica por qué podría ser ventajoso utilizar bases numéricas no convencionales en ciertos sistemas.
+**Exercise**: Perform the conversions and explain why using unconventional number bases in certain systems might be advantageous.
